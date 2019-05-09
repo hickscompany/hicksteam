@@ -19,6 +19,11 @@ const(
 	C,D = iota,2  //iota为枚举转换
 )
 
+type phone interface{
+
+	std()
+}
+
 func main() {
 
 	var a bool //布尔类型只有true或false。不能使用数字代替
@@ -240,6 +245,8 @@ func Cfunc(){
 
 
 //change to do
+//
+
 
 
 
